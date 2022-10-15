@@ -5,7 +5,7 @@ public class Main {
     // Methode zum Erraten einer Zufallszahl
     static void rateZahl() {
         int zufallsZahl = (int) (Math.random() * 101.0); // generiert Zahl zwischen 0 und 100
-        // System.out.println(randomNumber); zum testen
+        // System.out.println("Generierte Zufallszahl:" + zufallsZahl); zum Testen
 
         Scanner sc = new Scanner(System.in); // neues Scanner-Objekt
 
