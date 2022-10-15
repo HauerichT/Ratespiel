@@ -28,7 +28,7 @@ public class Main {
                 System.out.println("Bitte geben Sie eine Zahl zwischen 0 und 100 ein!");
             }
             else if(eingabeZahl > zufallsZahl) { // prüft ob Eingabezahl größer als Zufallszahl ist
-                System.out.println(eingabeZahl + " ist größer als die Zufallszahl.");
+                System.out.println(eingabeZahl + " ist größr als die Zufallszahl.");
             }
             else { // prüft ob Eingabezahl kleiner als Zufallszahl ist
                 System.out.println(eingabeZahl + " ist kleiner als die Zufallszahl.");
