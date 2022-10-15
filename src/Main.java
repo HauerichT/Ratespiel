@@ -1,13 +1,5 @@
 import java.util.Scanner;
 
-/*
-* Generiert eine Zufallszahl zwischen 0 und 100 und fragt anschließend über die Kommandozeile
-* eine Eingabezahl ab. Das Programm vergleicht die Eingabezahl mit der Zufallszahl und gibt
-* dem Nutzer über die Kommandozeile ein passendes Feedback. Dies wird so lange wiederholt, bis die
-* Eingabezahl mit der Zufallszahl übereinstimmt. Dann wird das Programm beendet und die Anzahl der
-* Versuche ausgegeben.
-* */
-
 public class Main {
 
     // Methode zum Erraten einer Zufallszahl
@@ -24,10 +16,10 @@ public class Main {
 
         while (zufallsZahl != eingabeZahl) { // Ausführung so lange Zahl nicht erraten wurde
 
-            if(eingabeZahl < 0 || eingabeZahl > 100) { // prüft ob Eingabezahl gültig ist
+            if (eingabeZahl < 0 || eingabeZahl > 100) { // prüft ob Eingabezahl gültig ist
                 System.out.println("Bitte geben Sie eine Zahl zwischen 0 und 100 ein!");
             }
-            else if(eingabeZahl > zufallsZahl) { // prüft ob Eingabezahl größer als Zufallszahl ist
+            else if (eingabeZahl > zufallsZahl) { // prüft ob Eingabezahl größer als Zufallszahl ist
                 System.out.println(eingabeZahl + " ist größer als die Zufallszahl.");
             }
             else { // prüft ob Eingabezahl kleiner als Zufallszahl ist
