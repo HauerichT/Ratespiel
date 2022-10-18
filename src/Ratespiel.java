@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Ratespiel {
 
     // Methode zum Erraten einer Zufallszahl
     static void rateZahl() {
